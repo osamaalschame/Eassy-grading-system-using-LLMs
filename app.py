@@ -65,7 +65,7 @@ def format_output(response_text):
     """
     return formatted_text
 # Initialize Gemini API
-genai.configure(api_key="AIzaSyBNrZYC_VIJLWLp4-zBc_PSYm6o8q94SXs")
+genai.configure(api_key="YOUR_KEY")
 
 def grade_and_summarize(essay):
     # Initialize Gemini
